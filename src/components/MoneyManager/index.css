@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #f5efef;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  border-radius: 10px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.person-name {
+  color: #475569;
+}
+
+.app-name {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.account-summary-carousal {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-history-container {
+  display: flex;
+}
+
+.form-carousal {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-right: 20px;
+  padding: 10px;
+  margin-right: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 40%;
+}
+
+.submit-button {
+  background-color: #0b69ff;
+  border-radius: 8px;
+  width: 30%;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.history-carousal {
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding: 10px;
+  min-width: 58%;
+}
+
+.history-table {
+  border: 1px solid grey;
+}
+
+.input-class {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.transaction-table {
+  list-style: none;
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid grey;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.table-header-cell {
+  width: 30%;
+}
